@@ -1,0 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-between; /* Esto colocará los elementos al principio y al final */
+    align-items: center; /* Esto centrará verticalmente los elementos */
+    padding: 10px 20px;
+    background-color: #e01e1e;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Para colocar los elementos de la lista en línea */
+    margin-left: 20px; /* Espacio entre elementos de la lista */
+}
+
+nav ul li:first-child {
+    margin-left: 0; /* Elimina el margen izquierdo del primer elemento */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.text {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.image {
+    flex: 1;
+    text-align: left;
+}
