@@ -47,18 +47,3 @@ nav ul li a:hover {
     text-align: left;
 }
 
-.content2 {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.text2 {
-    flex: 1;
-    padding: 0 20px;
-}
-
-.image2 {
-    flex: 1;
-    text-align: left;
-}
